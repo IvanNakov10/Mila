@@ -2,7 +2,7 @@
 
 :root {
     --main-bg-color: rgba(186, 186, 186, 0.367);
-    --main-btn-color: rgb(133, 111, 128);
+    --main-btn-color: #eb006e;
     --main-text-color: rgb(0, 0, 0);
     --bg-color: #fff;
 }
@@ -462,7 +462,7 @@ nav .konstl {
         font-weight: 500;
         font-size: 2em;
         color: white;
-        margin: 0.5em 0 0.5em;
+        margin: .5em .5em;
     }
 
     .sign-up-btns {
