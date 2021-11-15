@@ -1,0 +1,29 @@
+{
+  "name": "markdown-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dompurify": "^2.3.3",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "firebase": "^9.4.1",
+    "jsdom": "^16.7.0",
+    "jshint": "^2.13.1",
+    "marked": "^0.8.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.13.13",
+    "nodemailer": "^6.7.0",
+    "slugify": "^1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "description": ""
+}
