@@ -7,9 +7,6 @@
     --bg-color: #fff;
 }
 
-
-
-
 nav .konstl {
     margin-left: auto;
     margin-right: 1em;
@@ -25,316 +22,314 @@ nav .konstl {
 
 }
 
+@media only screen and (max-width: 800px) {
+
+    .header-placing {
+        width: 100%;
+        background-image: url(/iimg/98895737-default-placeholder-fitness-trainer-in-a-t-shirt-half-length-portrait-photo-avatar-gray-color.jpg);
+        background-size: cover;
+        padding-bottom: 100%;
+    }
+
+    .header-text {
+
+        font-family: 'Montserrat', sans-serif;
+        color: var(--main-text-color);
+    }
+
+    .header-name {
+        font-weight: 600;
+        font-size: 2em;
+        margin-top: 2em;
+    }
+
+    .number {
+        place-content: center;
+        font-weight: 900;
+        font-size: 1.75em;
+        padding: 1em 0;
+    }
+
+    .sign-up-btn {
+        text-align: center;
+        padding-top: 7em;
+        padding-bottom: 1em;
+    }
+
+    .header-placing-c {
+        width: 100%;
+        background-image: url(/iimg/98895737-default-placeholder-fitness-trainer-in-a-t-shirt-half-length-portrait-photo-avatar-gray-color.jpg);
+        background-size: cover;
 
 
-.header-placing {
-    width: 100%;
-    background-image: url(/iimg/98895737-default-placeholder-fitness-trainer-in-a-t-shirt-half-length-portrait-photo-avatar-gray-color.jpg);
-    background-size: cover;
+    }
 
-    padding-bottom: 100%;
+    .intod {
+        font-weight: 400;
+        font-size: 0.75em;
+        padding-left: 0.1em;
+    }
 
+    .name {
+        font-weight: 500;
+        font-size: 3em;
+
+    }
+
+    .status {
+        font-weight: 400;
+        font-size: 1.5em;
+
+    }
+
+    main {
+        font-family: 'Montserrat', sans-serif;
+
+    }
+
+    .work {
+        background-color: var(--bg-color);
+        width: 95%;
+        margin: 0 2.5%;
+    }
+
+    .dropdown {
+        background-color: var(--bg-color);
+        width: 95%;
+        margin: 0 2.5%;
+    }
+
+    .section-name {
+        border-left: var(--main-btn-color) 6px solid;
+        font-weight: 500;
+        margin: 1em 0 1em 0;
+        font-size: 2em;
+
+    }
+
+    .stats {
+        background-color: var(--main-bg-color);
+        padding: 1em;
+        font-weight: 400;
+        padding-bottom: 2em;
+        border-radius: 10px;
+    }
+
+    .statsP {
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+
+
+    .accordion-item .colla {
+        background: var(--main-bg-color);
+        margin-top: 1.4em;
+        border-radius: 15px;
+
+    }
+
+
+
+    .accordion-body {
+        background-color: var(--main-bg-color);
+    }
+
+    .form {
+        background-color: var(--main-text-color);
+        border-radius: 10px 10px 0 0;
+        width: 100%;
+        margin: 0;
+
+        padding-top: 1em;
+    }
+
+    form {
+        margin: 0 7.5%;
+    }
+
+    .sumbit-btn {
+        text-align: center;
+    }
+
+    .section-name-form {
+        border-left: var(--main-btn-color) 6px solid;
+        font-weight: 500;
+        font-size: 2em;
+        color: white;
+        margin: 0 7.5% 0.5em;
+    }
+
+    .sign-up-btns {
+        text-align: center;
+        margin-top: 2em;
+    }
+
+    .button1 {
+        background-color: var(--main-btn-color);
+        cursor: pointer;
+        color: rgb(255, 255, 255);
+        border-radius: 10px;
+        width: 80%;
+        font-size: 1.25em;
+        transition: ease-in 0.5s;
+    }
+
+    .or {
+        text-align: center;
+        margin-top: 0.5em;
+        font-weight: 600;
+        font-size: 1.15em;
+    }
+
+    .button2 {
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        border: black solid 4px;
+        border-radius: 10px;
+        width: 80%;
+        margin-top: 0.5em;
+        font-size: 1.25em;
+        transition: ease-in 0.5s;
+        left: 0;
+        margin-bottom: 2em;
+    }
+
+    .button1:hover {
+
+        box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.578);
+        color: white;
+    }
+
+    .button2:hover {
+
+        box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.578);
+    }
+
+    input[type=text],
+    input[type=tel],
+    textarea,
+    input[type=email] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        margin-top: 6px;
+        margin-bottom: 16px;
+        resize: vertical;
+
+    }
+
+    input[type=submit] {
+        background-color: var(--main-btn-color);
+        color: white;
+        padding: 5px 50px;
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        text-align: center;
+        font-size: 1.425em;
+        font-weight: 400;
+
+    }
+
+    input[type=submit]:hover {
+        background-color: var(--main-btn-color);
+    }
+
+    .footer {
+
+        z-index: 10;
+        border-radius: 25px 25px 0 0;
+        background-color: white;
+    }
+
+    .semi-footer {
+        margin-top: 2em;
+        padding-bottom: 3em;
+        margin: 0 7.5%;
+    }
+
+    .form-icons {
+        margin-top: 0.25em;
+        color: white;
+    }
+
+    .semi-f-text {
+        margin-top: 6px;
+        margin-left: 0.5em;
+    }
+
+    footer {
+        font-family: 'Montserrat', sans-serif;
+        background-color: black;
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .footer {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .footer-nav {
+        padding-top: 2em;
+
+    }
+
+    .footer-ul {
+        margin: 0;
+        padding: 0;
+        margin-bottom: 2em;
+        margin-left: 0.5em;
+    }
+
+    .footer-ul li {
+        list-style-type: none;
+        font-size: 1.25em;
+    }
+
+    .footer-bottom {
+
+        text-align: center;
+    }
+
+    .copyright {
+        width: 82%;
+        margin: 0 11% 0 11%;
+        font-size: 0.90em;
+    }
+
+    .creators {
+        width: 60%;
+        margin: 0 20% 0 20%;
+        font-size: 0.75em;
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+
+    .bottom-f-text {
+        color: var(--main-text-color);
+        margin-top: 6px;
+    }
+
+
+    .book {
+        width: 90%;
+        margin: 0 5%;
+        margin-bottom: 1em;
+    }
+
+    .BDes {
+        width: 90%;
+        margin: 0 5%;
+        margin-bottom: 5em;
+    }
 }
 
-.header-text {
-
-    font-family: 'Montserrat', sans-serif;
-    color: var(--main-text-color);
-}
-
-.header-name {
-    font-weight: 600;
-    font-size: 2em;
-    margin-top: 2em;
-}
-
-.number {
-    place-content: center;
-    font-weight: 900;
-    font-size: 1.75em;
-    padding: 1em 0;
-}
-
-.sign-up-btn {
-    text-align: center;
-    padding-top: 7em;
-    padding-bottom: 1em;
-}
-
-.header-placing {
-    width: 90%;
-    margin: 0 5%;
-    width: 100%;
-    background-image: url(/iimg/98895737-default-placeholder-fitness-trainer-in-a-t-shirt-half-length-portrait-photo-avatar-gray-color.jpg);
-    background-size: cover;
-
-
-}
-
-.intod {
-    font-weight: 400;
-    font-size: 0.75em;
-    padding-left: 0.1em;
-}
-
-.name {
-    font-weight: 500;
-    font-size: 3em;
-
-}
-
-.status {
-    font-weight: 400;
-    font-size: 1.5em;
-
-}
-
-main {
-    font-family: 'Montserrat', sans-serif;
-
-}
-
-.work {
-    width: 90%;
-    margin: 0 5%;
-    background-color: var(--bg-color);
-}
-
-.dropdown {
-    width: 90%;
-    margin: 0 5%;
-    background-color: var(--bg-color);
-
-}
-
-.moreAm {
-    width: 90%;
-    margin: 0 5%;
-}
-
-.section-name {
-    border-left: var(--main-btn-color) 6px solid;
-    font-weight: 500;
-    margin: 1em 0 1em 0;
-    font-size: 2em;
-}
-
-.stats {
-    background-color: var(--main-bg-color);
-    padding: 1em;
-    font-weight: 400;
-    padding-bottom: 2em;
-    border-radius: 10px;
-}
-
-.statsP {
-    justify-content: center;
-    justify-content: space-between;
-}
-
-
-
-.accordion-item .colla {
-    background: var(--main-bg-color);
-    margin-top: 1.4em;
-    border-radius: 15px;
-
-}
-
-
-
-.accordion-body {
-    background-color: var(--main-bg-color);
-}
-
-.form {
-    background-color: var(--main-text-color);
-    border-radius: 10px 10px 0 0;
-    margin-top: 2em;
-    width: 90%;
-    margin: 0 5%;
-}
-
-.sumbit-btn {
-    text-align: center;
-}
-
-.section-name-form {
-    border-left: var(--main-btn-color) 6px solid;
-    font-weight: 500;
-    font-size: 2em;
-    color: white;
-    margin: 0.5em 0 0.5em;
-}
-
-.sign-up-btns {
-    text-align: center;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-
-.button1 {
-    background-color: var(--main-btn-color);
-    cursor: pointer;
-    color: rgb(255, 255, 255);
-    border-radius: 10px;
-    width: 80%;
-    font-size: 1.25em;
-    transition: ease-in 0.5s;
-}
-
-.or {
-    text-align: center;
-    margin-top: 0.5em;
-    font-weight: 600;
-    font-size: 1.15em;
-}
-
-.button2 {
-    background-color: rgb(255, 255, 255);
-    cursor: pointer;
-    color: rgb(0, 0, 0);
-    border: black solid 4px;
-    border-radius: 10px;
-    width: 80%;
-    margin-top: 0.5em;
-    font-size: 1.25em;
-    transition: ease-in 0.5s;
-    left: 0;
-
-}
-
-.button1:hover {
-
-    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.578);
-    color: white;
-}
-
-.button2:hover {
-
-    box-shadow: 10px 10px 5px rgba(128, 128, 128, 0.578);
-}
-
-input[type=text],
-input[type=tel],
-textarea,
-input[type=email] {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-
-}
-
-input[type=submit] {
-    background-color: var(--main-btn-color);
-    color: white;
-    padding: 5px 50px;
-    border: none;
-    border-radius: 7px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 1.425em;
-    font-weight: 400;
-
-}
-
-input[type=submit]:hover {
-    background-color: var(--main-btn-color);
-}
-
-.footer {
-
-    z-index: 10;
-    border-radius: 25px 25px 0 0;
-    background-color: white;
-}
-
-.semi-footer {
-    margin-top: 2em;
-    padding-bottom: 3em;
-}
-
-.form-icons {
-    margin-top: 0.25em;
-    color: white;
-}
-
-.semi-f-text {
-    margin-top: 6px;
-    margin-left: 0.5em;
-}
-
-footer {
-    font-family: 'Montserrat', sans-serif;
-    width: 90%;
-    margin: 0 5%;
-}
-
-.footer {
-    width: 90%;
-    margin: 0 5%;
-}
-
-.footer-nav {
-    padding-top: 2em;
-
-}
-
-.footer-ul {
-    margin: 0;
-    padding: 0;
-    margin-bottom: 2em;
-    margin-left: 0.5em;
-}
-
-.footer-ul li {
-    list-style-type: none;
-    font-size: 1.25em;
-}
-
-.footer-bottom {
-
-    text-align: center;
-}
-
-.copyright {
-    width: 82%;
-    margin: 0 11% 0 11%;
-    font-size: 0.90em;
-}
-
-.creators {
-    width: 60%;
-    margin: 0 20% 0 20%;
-    font-size: 0.75em;
-    margin-top: 2em;
-    margin-bottom: 1em;
-}
-
-.bottom-f-text {
-    color: var(--main-text-color);
-    margin-top: 6px;
-}
-
-
-.book {
-    width: 90%;
-    margin: 0 5%;
-    margin-bottom: 1em;
-}
-
-.BDes {
-    width: 90%;
-    margin: 0 5%;
-    margin-bottom: 5em;
-}
-
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 572px) {
 
     .header-placing {
         width: 100%;
@@ -449,7 +444,11 @@ footer {
         background-color: var(--main-text-color);
         border-radius: 10px 10px 0 0;
         margin-top: 2em;
+        width: 90%;
+        margin: 0 5%;
     }
+
+
 
     .sumbit-btn {
         text-align: center;
@@ -496,6 +495,7 @@ footer {
         font-size: 1.25em;
         transition: ease-in 0.5s;
         left: 0;
+
 
     }
 
