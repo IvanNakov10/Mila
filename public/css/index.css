@@ -129,7 +129,10 @@ nav .konstl {
 
     }
 
-
+    .moreAm {
+        width: 95%;
+        margin: 0 2.5%;
+    }
 
     .accordion-body {
         background-color: var(--main-bg-color);
