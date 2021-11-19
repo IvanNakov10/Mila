@@ -88,9 +88,11 @@ nav .konstl {
     }
 
     .work {
-        background-color: var(--bg-color);
+
         width: 95%;
         margin: 0 2.5%;
+
+
     }
 
     .dropdown {
@@ -125,8 +127,20 @@ nav .konstl {
     .accordion-item .colla {
         background: var(--main-bg-color);
         margin-top: 1.4em;
-        border-radius: 15px;
 
+
+    }
+
+    .accordion-flush .accordion-item .accordion-button {
+        border-radius: 15px;
+    }
+
+    .accordion-body {
+        border-radius: 0 0 15px 15px;
+    }
+
+    .accordion-button colla collapsed {
+        border-radius: 15px 15px 0 0;
     }
 
     .moreAm {
@@ -433,15 +447,23 @@ nav .konstl {
     .accordion-item .colla {
         background: var(--main-bg-color);
         margin-top: 1.4em;
-        border-radius: 15px;
 
     }
 
-
+    .accordion-flush .accordion-item .accordion-button {
+        border-radius: 15px;
+    }
 
     .accordion-body {
+        border-radius: 0 0 15px 15px;
         background-color: var(--main-bg-color);
     }
+
+    .accordion-button colla collapsed {
+        border-radius: 15px 15px 0 0;
+    }
+
+
 
     .form {
         background-color: var(--main-text-color);
